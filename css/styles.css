@@ -178,6 +178,11 @@ body {
     position: static;
     width: 100%;
   }
+
+  .ctext{
+  color: white;
+  margin-left: 50%;
+}
 }
 
 .btn1{
