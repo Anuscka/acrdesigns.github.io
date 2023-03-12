@@ -510,9 +510,11 @@ form.information{
   margin: 10px auto;
   line-height: 28px;
   font-style: 7px;
+  text-align: center;
 }
 
 .fa{
   align-items: center;
   color: #FFF;
+  padding-left: 5%;
 }
