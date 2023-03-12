@@ -176,7 +176,7 @@ body {
   .banner-image{
     align-items: center;
     position: static;
-    width: 110%;
+    width: 100%;
   }
 }
 
