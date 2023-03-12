@@ -391,7 +391,7 @@ p.form-para::after{
 }
 
 
-@media screen and (max-width: 767px){
+
 .mycol1{
 		border-radius: 0;
 		border-top-right-radius: 12px;
@@ -414,7 +414,7 @@ form.information{
 	.form-group {
     margin: 10px 10px 0 10px;
 }
-@media screen and (min-width: 767px)
+
 {
 	form.information{
 	margin: 0 200px 0 50px;
@@ -424,7 +424,7 @@ form.information{
     font-size: 18px;
 }
 }
-@media screen and (min-width: 1200px){
+
 	form.information{
 	margin: 0 280px 0 100px;
 }
@@ -445,11 +445,6 @@ form.information{
 
 /* Media */
 
-@media (max-width: 991px) {
-  .web-image {
-    position: static;
-    transform: rotate(0deg);
-  }
 
 /* footer */
 
