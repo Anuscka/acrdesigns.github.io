@@ -495,10 +495,10 @@ form.information{
   height: auto;
   width: 100%;
   font-family: "Roboto";
-  padding-top: 40px;
+  margin-top: 10%;
   color: white;
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
 
 .footer-content{
