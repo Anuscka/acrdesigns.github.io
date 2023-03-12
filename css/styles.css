@@ -265,33 +265,6 @@ body {
   transform: translateX(350px);
 }
 
-@media (max-width: 991px) {
-  @keyframes slideInRight {
-    from{
-      transform: translate(700px);
-    }
-  
-      to{
-        transform: translate(0);
-      }
-  }
-  
-  .banner-image {
-    animation-name: none;!important
-    animation-duration: none;!important
-    animation-timing-function: none;!important
-    animation-delay: none;!important
-    animation-iteration-count: none;!important
-    animation-direction: none;!important
-    animation-fill-mode: none;!important
-  
-    transform: translateX(350px);
-  }
-
-  .banner-image{
-    align-items: center;
-  }
-}
 
 /* Icons */
 
@@ -399,90 +372,6 @@ body {
   animation-fill-mode: forwards;
 
   transform: translateX(350px);
-}
-
-@media (max-width: 991px) {
-  @keyframes slideInLeft {
-    from{
-      transform: translate(-700px);
-    }
-  
-      to{
-        transform: translate(0);
-      }
-  }
-  
-  .first{
-    animation-name: none;!important
-    animation-duration: none;!important
-    animation-timing-function: none;!important
-    animation-delay: none;!important
-    animation-iteration-count: none;!important
-    animation-direction: none;!important
-    animation-fill-mode: none;!important
-  
-    transform: translateX(350px);
-  }
-  
-  .second{
-    animation-name: none;!important
-    animation-duration: none;!important
-    animation-timing-function: none;!important
-    animation-delay: none;!important
-    animation-iteration-count: none;!important
-    animation-direction: none;!important
-    animation-fill-mode: none;!important
-  
-    transform: translateX(350px);
-  }
-  
-  .third{
-    animation-name: none;!important
-    animation-duration: none;!important
-    animation-timing-function: none;!important
-    animation-delay: none;!important
-    animation-iteration-count: none;!important
-    animation-direction: none;!important
-    animation-fill-mode: none;!important
-  
-    transform: translateX(350px);
-  }
-  
-  .four{
-    animation-name: none;!important
-    animation-duration: none;!important
-    animation-timing-function: none;!important
-    animation-delay: none;!important
-    animation-iteration-count: none;!important
-    animation-direction: none;!important
-    animation-fill-mode: none;!important
-  
-    transform: translateX(350px);
-  }
-  
-  .five{
-    animation-name: none;!important
-    animation-duration: none;!important
-    animation-timing-function: none;!important
-    animation-delay: none;!important
-    animation-iteration-count: none;!important
-    animation-direction: none;!important
-    animation-fill-mode: none;!important
-  
-    transform: translateX(350px);
-  }
-  
-  .six{
-    animation-name: none;!important
-    animation-duration: none;!important
-    animation-timing-function: none;!important
-    animation-delay: none;!important
-    animation-iteration-count: none;!important
-    animation-direction: none;!important
-    animation-fill-mode: none;!important
-  
-    transform: translateX(350px);
-  }
 }
 
 /*form*/
