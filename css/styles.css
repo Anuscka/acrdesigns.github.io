@@ -511,13 +511,13 @@ form.information{
 .bottomf{
   margin: 10px auto;
   line-height: 28px;
-  font-style: 3px;
+  font-style: 2px;
   text-align: center;
 }
 
 .fa{
   align-items: center;
   color: #FFF;
-  padding-left: 5%;
-  margin-bottom: 5%;
+  margin: 5% 10px 20px;
+  
 }
