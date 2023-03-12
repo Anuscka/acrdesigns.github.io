@@ -172,6 +172,14 @@ body {
   position: static;
 }
 
+@media (max-width: 991px) {
+  .banner-image{
+    align-items: center;
+    position: static;
+    width: 110%;
+  }
+}
+
 .btn1{
   margin-top: 10%;
   margin-left: 28%;
