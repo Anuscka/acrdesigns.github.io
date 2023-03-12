@@ -490,7 +490,7 @@ form.information{
 
 /* footer */
 
-footer{
+#footer{
   background-color: #2b6684;
   height: auto;
   width: 100%;
@@ -506,7 +506,7 @@ footer{
   text-align: center;
 }
 
-.footer-bottom{
+.bottomf{
   max-width: 25px;
   margin: 10px auto;
   line-height: 28px;
