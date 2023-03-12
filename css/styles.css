@@ -63,6 +63,15 @@ body {
   font-weight: 900;
 }
 
+@media ((max-width: 991px)) {
+  .big-heading {
+    font-family: 'Roboto-Black', sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+    font-weight: 900;
+  }
+}
+
 /* Navbar */
 .container-fluid {
   padding: 0px 100px 10px 0px;
