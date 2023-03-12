@@ -145,6 +145,7 @@ body {
 @media (max-width: 991px) {
   .logo{
     width: 50%;
+    height: 50%;
   }
 }
 
