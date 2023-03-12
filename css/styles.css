@@ -182,12 +182,24 @@ body {
 
 .btn1{
   margin-top: 10%;
-  margin-left: 50%;
+  margin-left: 28%;
 }
 
 .btn2{
   margin-top: 10%;
-  margin-left: 50%;
+  margin-left: 5%;
+}
+
+@media (max-width: 991px) {
+  .btn1{
+    margin-top: 10%;
+    margin-left: 50%;
+  }
+  
+  .btn2{
+    margin-top: 10%;
+    margin-left: 50%;
+  }
 }
 
 /* Top content*/
