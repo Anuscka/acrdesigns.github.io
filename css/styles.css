@@ -287,6 +287,10 @@ body {
   
     transform: translateX(350px);
   }
+
+  .banner-image{
+    align-items: center;
+  }
 }
 
 /* Icons */
