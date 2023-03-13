@@ -265,6 +265,30 @@ body {
   transform: translateX(350px);
 }
 
+@media (max-width: 991px) {
+  @keyframes slideInRight {
+    from{
+      transform: translate(25px);
+    }
+
+      to{
+        transform: translate(0);
+      }
+  }
+
+  .banner-image {
+    animation-name: slideInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+    transform: translateX(350px);
+  }
+}
+
 
 /* Icons */
 
