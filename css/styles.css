@@ -268,7 +268,7 @@ body {
 @media (max-width: 991px) {
   @keyframes slideInRight {
     from{
-      transform: translate(25px);
+      transform: translate(10px);
     }
 
       to{
@@ -396,6 +396,90 @@ body {
   animation-fill-mode: forwards;
 
   transform: translateX(350px);
+}
+
+@media (max-width: 991px) {
+  @keyframes slideInLeft {
+    from{
+      transform: translate(-10px);
+    }
+
+      to{
+        transform: translate(0);
+      }
+  }
+
+  .first{
+    animation-name: slideInLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+    transform: translateX(350px);
+  }
+
+  .second{
+    animation-name: slideInRight;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+    transform: translateX(350px);
+  }
+
+  .third{
+    animation-name: slideInLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+    transform: translateX(350px);
+  }
+
+  .four{
+    animation-name: slideInRight;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+    transform: translateX(350px);
+  }
+
+  .five{
+    animation-name: slideInLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+    transform: translateX(350px);
+  }
+
+  .six{
+    animation-name: slideInRight;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+    transform: translateX(350px);
+  }
 }
 
 /*form*/
