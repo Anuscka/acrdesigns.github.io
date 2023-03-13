@@ -284,6 +284,7 @@ body {
     animation-iteration-count: 1;
     animation-direction: normal;
     animation-fill-mode: forwards;
+	width: 120%;
 
     transform: translateX(350px);
   }
