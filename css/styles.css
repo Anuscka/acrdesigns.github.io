@@ -268,7 +268,7 @@ body {
 @media (max-width: 991px) {
   @keyframes slideInRight {
     from{
-      transform: translate(10px);
+      transform: translate(25px);
     }
 
       to{
@@ -402,7 +402,7 @@ body {
 @media (max-width: 991px) {
   @keyframes slideInLeft {
     from{
-      transform: translate(-10px);
+      transform: translate(-25px);
     }
 
       to{
