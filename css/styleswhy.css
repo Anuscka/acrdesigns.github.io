@@ -1,3 +1,22 @@
+
+const resizeOps = () => {
+   document.documentElement.style.setProperty("--vh", window.innerHeight * 0.01 + "px");
+ };
+
+ resizeOps();
+ window.addEventListener("resize", resizeOps);
+
+ html, body {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+}
+
+.modal {
+  width: 50vw;
+  height: 50vh;
+  height: calc(var(--vh, 1vh) * 50);
+}
+
 /* Headings */
 h1, h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
@@ -194,4 +213,40 @@ body {
 
 .my-float{
 	margin-top:6px;
+}
+
+
+
+/* footer */
+
+#footer{
+  background-color: #2b6684;
+  height: auto;
+  width: 100%;
+  font-family: "Roboto";
+  padding-top: 5%;
+  color: white;
+  margin-top: 5%;
+  padding-bottom: 5%;
+}
+
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.bottomf{
+  margin: 10px auto;
+
+  font-style: 2px;
+  text-align: center;
+}
+
+.fa{
+  align-items: center;
+  color: #FFF;
+  margin: 5% 10px 20px;
+
 }
