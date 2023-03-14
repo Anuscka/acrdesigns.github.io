@@ -189,7 +189,9 @@ body {
 
 @media (max-width: 991px) {
   .banner-image{
-    width: 125%;
+    width: 70%;
+    height: 50%;
+    margin-left: 23%;
   }
 }
 
@@ -303,7 +305,9 @@ body {
   }
 
 .card{
-width: 98%;
+width: 70%;
+margin-left: 16%;
+margin-top: 4%;
 }
 }
 
