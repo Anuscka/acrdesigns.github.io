@@ -164,6 +164,7 @@ body {
 .col-lg-6{
   margin-bottom: 5%;
   margin-top: 1%;
+  align-items: center;
 }
 
 .btext{
@@ -181,9 +182,18 @@ body {
 
 @media (max-width: 991px) {
   .banner-image{
+    width: 30%;
+    height: 80%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 991px) {
+
+  .col-lg-6{
+    margin-bottom: 5%;
+    margin-top: 1%;
     align-items: center;
-    position: static;
-    width: 120%;
   }
 
   .ctext{
@@ -208,7 +218,7 @@ body {
     margin-top: 10%;
     margin-left: 45%;
   }
-  
+
   .btn2{
     margin-top: 10%;
     margin-left: 45%;
@@ -284,12 +294,11 @@ body {
     animation-iteration-count: 1;
     animation-direction: normal;
     animation-fill-mode: forwards;
-	width: 120%;
+    width: 120%;
 
     transform: translateX(350px);
   }
 }
-
 
 /* Icons */
 
@@ -402,7 +411,7 @@ body {
 @media (max-width: 991px) {
   @keyframes slideInLeft {
     from{
-      transform: translate(-25px);
+      transform: translate(-10px);
     }
 
       to{
@@ -627,7 +636,7 @@ form.information{
 
 .bottomf{
   margin: 10px auto;
-  
+
   font-style: 2px;
   text-align: center;
 }
@@ -636,5 +645,5 @@ form.information{
   align-items: center;
   color: #FFF;
   margin: 5% 10px 20px;
-  
+
 }
